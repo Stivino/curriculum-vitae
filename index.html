@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Bootstrap 4 Website Example</title>
+  <title>Steven Weber</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
@@ -10,6 +10,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family= Playfair+Display+SC" rel="stylesheet">
   <style>
     .fakeimg {
       height: 200px;
@@ -19,6 +20,16 @@
       width: inherit;
     }
 
+    .card>hr {
+      margin-left: 20%; 
+      margin-right: 20%
+    }
+    
+    .card {
+      margin-top: 2%;
+      margin-bottom: 2%;
+    }
+
     body {
       font-family: 'Lora', serif;
     }
@@ -26,13 +37,16 @@
     p {
       font-size: 14px;
       text-align: justify;
-
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     }
 
+    h1 { font-family: 'Lora', serif;
+    font-weight: bold;
+    margin-top: 10px;}
+
     h2 {
       text-align: center;
-      margin-bottom: 20px;
+      font-family: 'Lora', serif;
     }
 
     h4 {
@@ -78,13 +92,16 @@
         <h1>STEVEN WEBER</h1>
         <img src="img/me.jpg" alt="am" class="pull-right img-thumbnail">
         <p>
-          Engaged and result-oriented full-stack software engineer and consultant with 5+ years of experience in developing and also
-          consulting. Main experienced with applications and solutions for business processes in production-related environments.
+          Engaged and result-oriented full-stack software engineer and consultant with 5+ years of experience in
+          developing and also
+          consulting. Main experienced with applications and solutions for business processes in production-related
+          environments.
           Also experienced in solutions all around Manufacturing Execution Systems (MES) and SAP ERP.
         </p>
 
         <hr>
-        <h1 id="Skills">Skills</h1>
+        <h2 id="Skills">Skills</h2>
+        <hr>
         <!-- <div class="border border-primary">
           <div class="card-body"> -->
         <h4>Languages</h4>
@@ -100,7 +117,12 @@
         <p>Git, SVN, VS Code, Visual Studio, Jira, Microsoft DevOps</p>
         <!-- </div>
         </div> -->
-
+        <hr>
+        <h2 id="Languages">Languages</h2>
+        <hr>
+        <strong>german</strong> (native)</p>
+        <strong>english</strong> (B1)</p>
+        <strong>french</strong> (A1)</p>
 
         <br>
         <hr class="d-sm-none">
@@ -110,7 +132,8 @@
 
       <div class="col-sm-8">
         <div class="card card-body">
-            <h2 id="Experience">Experience</h2>
+          <h2 id="Experience">Experience</h2>
+          <hr>
           <h4>Software Engineer / Consultant - 2016 - present</h4>
           <strong>ORBIS AG, Saarbrücken (Germany)</strong>
           <p>
@@ -126,7 +149,7 @@
             <li>Design and develop customer specific, also as standardised software in relation to MES-processes</li>
             <li>Teach customers and consultants in using our software</li>
           </ul>
-          <hr style="margin-left: 20%; margin-right: 20%">
+          <hr>
           <h4>Junior Software Engineer / Consultant - 2015 - 2016</h4>
           <strong>ORBIS AG, Saarbrücken (Germany)</strong>
           <p>
@@ -138,7 +161,7 @@
             <li>Develop smaller solutions in teams or by myself</li>
             <li>Responsible to etablish release management and agile development</li>
           </ul>
-          <hr style="margin-left: 20%; margin-right: 20%">
+          <hr>
           <h4>Student - 2013 - 2015</h4>
           <strong>ORBIS AG, Saarbrücken (Germany)</strong>
           <p>
@@ -151,45 +174,50 @@
 
 
         <div class="card card-body">
-        <h2 id="Education">Education</h2>
-        <!-- <div class="border border-primary">
+          <h2 id="Education">Education</h2>
+          <hr>
+          <!-- <div class="border border-primary">
           <div class="card-body"> -->
-        <h4>University of Applied Sciences, Saarbrücken, Germany - 2011-2016</h4>
-        <p>
-          <strong>Bachelor of Science (B. Sc.)</strong> Media Communication and Computer Science (german: Kommunikationsinformatik)</p>
-        <p>
-          <strong>thesis: </strong>Entwurf und prototypische Implementierung einer Integrationsplattform in einer hetereogenen Systemlandschaft
-          (grade: 1.0)</p>
-        <!-- </div>
+          <h4>University of Applied Sciences, Saarbrücken, Germany - 2011-2016</h4>
+          <p>
+            <strong>Bachelor of Science (B. Sc.)</strong> Media Communication and Computer Science (german:
+            Kommunikationsinformatik)</p>
+          <p>
+            <strong>thesis: </strong>Entwurf und prototypische Implementierung einer Integrationsplattform in einer
+            hetereogenen Systemlandschaft
+            (grade: 1.0)</p>
+          <!-- </div>
         </div> -->
-      </div>
-      
-      <br>
+        </div>
+
+        <br>
 
         <div class="card card-body">
           <h2 id="Conferences">Conferences and trainings</h2>
+          <hr>
           <ul>
             <li>
               <p>
                 <strong>OPC UA Workshop</strong> - 2018, Saarbrücken, Germany</p>
-              <li>
-                <p>
-                  <strong>Communication and presentation techniques for it consultants</strong> - 2018 (certified), Saarbrücken,
-                  Germany
-                </p>
-              </li>
-              <li>
-                <p>
-                  <strong>IoT and Edge Computing Inspiration</strong> - 2016, Regensdorf, Switzerland</p>
-              </li>
-              <li>
-                <p>
-                  <strong>Hanover fair</strong> - 2016, Hanover, Germany</p>
-              </li>
-              <li>
-                <p>
-                  <strong>Microsoft - IoT Design Conference 2016</strong> - 2016, Berlin, Germany</p>
-              </li>
+            <li>
+              <p>
+                <strong>Communication and presentation techniques for it consultants</strong> - 2018 (certified),
+                Saarbrücken,
+                Germany
+              </p>
+            </li>
+            <li>
+              <p>
+                <strong>IoT and Edge Computing Inspiration</strong> - 2016, Regensdorf, Switzerland</p>
+            </li>
+            <li>
+              <p>
+                <strong>Hanover fair</strong> - 2016, Hanover, Germany</p>
+            </li>
+            <li>
+              <p>
+                <strong>Microsoft - IoT Design Conference 2016</strong> - 2016, Berlin, Germany</p>
+            </li>
           </ul>
         </div>
       </div>
